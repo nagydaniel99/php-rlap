@@ -1,0 +1,25 @@
+<form>/<form> Ez az ürlap alapja
+<input> bevitelimezõk
+<label></label> Mezõk neve
+E-mail ellenörzõ típus: (required az ami kötelezõ és addig nem enged továbbmenni (adatot küldeni))
+<input type="email" required name="" id="" placeholder="pelda@pelda.hu">
+Jelszó ellenörzõ típus: placeholder (üresen hagyott beviteli mezõbe ír bele pl (Vezetéknév))
+<input type="password" required name="" id="" placeholder="Nagykis123">
+<select> Választható kérdések
+<option></option Választható kérdések beírása
+pl: <option value="anyád">Anyád kedvenc kutyája?</option>
+minden value különbözõ legyen
+Radiógombos választás:
+Pl <input type="radio" name="nem" id=""> férfi
+<input type="radio" name="nem" id=""> nõ
+<input type="radio" name="nem" id=""> egyéb
+mindegyik name=""-nak ugyanannak kell lenni mivel ez egy csoportot jelöl.
+
+Elfogadó dobozka:
+pl <input type="checkbox" name="" id="">
+<label class="inline" for="">A regisztrációs feltételeket elfogadom</label>
+ajánlott class-ba tenni hogy ne üsse ki a másik formázás
+
+Gombok:
+<input type="submit" value="Regisztrál"> Ez adatot küld a php szerverhez amiben menti az adatokat.
+<input type="button" value="Nem submit button"> Ez nem csinál semmit.

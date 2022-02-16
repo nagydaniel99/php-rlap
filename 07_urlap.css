@@ -1,0 +1,18 @@
+/* Az összes formon belüli összes div-re vonatkozik */
+form#reg div{
+    margin: 10px;
+    padding: 5px;
+}
+form#reg{
+    background-color: aquamarine;
+    padding: 10px;
+}
+label{
+    display: block;
+}
+form#reg div.regNev{
+    background-color: cyan;
+}
+label.inline{
+    display: inline;
+}

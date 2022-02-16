@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="07_urlap.css">
+    <title>Regisztráció</title>
+</head>
+<body>
+    <form action="07_urlap_feldolgoz.php" method="post" id="reg">  Regisztrációs ürlap 
+        <p>(A*-gal jelölt mezők kitöltése kötelező!)</p>
+        <div class="regNev">
+        <label for="">*Név:</label>
+            <input type="text" required name="" id="" placeholder="Vezetéknév"> 
+            <input type="text" required name="" id="" placeholder="Keresztnév">
+        </div>
+        <div>
+            <label for="">*E-mail cím:</label>
+            <input type="email" required name="" id="" placeholder="pelda@pelda.hu">
+            </div>
+            <div>
+                <label for="">Születési dátum</label>
+                <input type="date" name="" id="">
+            </div>
+            <div>
+                <label for="">Házszám</label>
+                <input type="number" name="" id="">
+            </div>
+                <div>
+                <label for="">*Jelszó:</label>
+                <input type="password" required name="" id="" placeholder="Nagykis123">
+            </div>
+            <div>
+               <label for="">*Jelszó megerősítése:</label>
+               <input type="password" required name="" id="">
+            </div>
+            <div>
+                <label for="">Biztonsági kérdés:</label>
+                <select name="" id="">
+                    <option value="anyád">Anyád kedvenc kutyája?</option>
+                    <option value="öregapád">Öregapád térde kalácsa?</option>
+                    <option value="tanárod" selected="selected">Általános iskolai ének tanárod lányának haja színe?</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Nem:</label>
+                <input type="radio" name="nem" id=""> férfi
+                <input type="radio" name="nem" id=""> nő
+                <input type="radio" name="nem" id=""> egyéb
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label class="inline" for="">A regisztrációs feltételeket elfogadom</label>
+            </div>
+            <div>
+                <input type="submit" value="Regisztrál"> 
+                <input type="button" value="Nem submit button">
+            </div>
+    </form>
+</body>
+</html>
